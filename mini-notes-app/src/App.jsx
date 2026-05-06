@@ -39,7 +39,6 @@ const App = () => {
     setTask(copyTask);
   };
 
-  // editNote
   const editNote = (idx) => {
     const copyTask = [...task];
     const note = copyTask[idx];
